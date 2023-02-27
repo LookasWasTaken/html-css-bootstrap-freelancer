@@ -1,0 +1,43 @@
+:root {
+  --my-primary: #1abc9c;
+  --my-medium: #3a546d;
+  --my-dark: #2c3e50;
+}
+
+/* #region Debug */
+
+.debug * {
+  outline: 1px dashed violet;
+}
+
+.debug #app_header *,
+.debug #jumbo * {
+  height: 100%;
+}
+
+.debug #jumbo {
+  height: 400px;
+}
+
+.debug #portfolio .col {
+  height: 200px;
+}
+
+/* #endregion Debug */
+
+/* #region Header */
+
+#app_header {
+  height: 100px;
+  background-color: var(--my-dark);
+}
+
+/* #endregion Header */
+
+/* #region Main */
+
+#jumbo {
+  background-color: var(--my-primary);
+}
+
+/* #endregion Main */
