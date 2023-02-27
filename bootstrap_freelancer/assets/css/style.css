@@ -23,6 +23,10 @@
   height: 250px;
 }
 
+.debug #about .row *{
+    height: 250px;
+}
+
 /* #endregion Debug */
 
 /* #region Header */
