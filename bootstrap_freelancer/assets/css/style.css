@@ -7,7 +7,7 @@
 /* #region Debug */
 
 .debug * {
-  outline: 1px dashed violet;
+  outline: 1px dashed black;
 }
 
 .debug #app_header *,
@@ -16,11 +16,11 @@
 }
 
 .debug #jumbo {
-  height: 400px;
+  height: 600px;
 }
 
 .debug #portfolio .col {
-  height: 200px;
+  height: 250px;
 }
 
 /* #endregion Debug */
