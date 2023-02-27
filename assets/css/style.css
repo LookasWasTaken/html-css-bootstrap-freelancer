@@ -11,8 +11,13 @@
 }
 
 .debug #app_header *,
-.debug #jumbo * {
+.debug #jumbo *,
+.debug #footer_bottom * {
   height: 100%;
+}
+
+.debug #footer_top{
+  height: 50px;
 }
 
 .debug #jumbo {
@@ -45,3 +50,12 @@
 }
 
 /* #endregion Main */
+
+/* #region Footer */
+
+#footer_bottom{
+   height: 100px;
+   background-color: var(--my-dark);
+}
+
+/* #endregion Footer */
