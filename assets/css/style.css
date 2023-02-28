@@ -2,11 +2,32 @@
   --my-primary: #1abc9c;
   --my-medium: #3a546d;
   --my-dark: #2c3e50;
+  --my-white: #ffffff;
+}
+
+.t_darker {
+  color: var(--my-dark);
+}
+
+.t_primary {
+  color: var(--main);
+}
+
+.bg_primary {
+  background-color: var(--my-primary);
+}
+
+.bg_dark {
+  background-color: var(--my-medium);
+}
+
+.bg_darker {
+  background-color: var(--my-dark);
 }
 
 /* #region Debug */
 
-.debug * {
+/* .debug * {
   outline: 1px dashed black;
 }
 
@@ -30,22 +51,26 @@
 
 .debug #about .row *{
     height: 250px;
-}
+} */
 
 /* #endregion Debug */
 
 /* #region Header */
 
-#app_header {
-  height: 100px;
-  background-color: var(--my-dark);
+#app_header,
+div#offcanvasNavbar{
+    background-color: var(--my-dark);
+}
+
+.custom_toggler {
+    border-color: var(--my-white);
 }
 
 /* #endregion Header */
 
 /* #region Main */
 
-#jumbo {
+#jumbo, #about {
   background-color: var(--my-primary);
 }
 
@@ -54,7 +79,6 @@
 /* #region Footer */
 
 #footer_bottom{
-   height: 100px;
    background-color: var(--my-dark);
 }
 
