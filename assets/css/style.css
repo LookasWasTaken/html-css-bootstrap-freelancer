@@ -13,6 +13,10 @@
   color: var(--main);
 }
 
+.t_lighter {
+  color: var(--my-white);
+}
+
 .bg_primary {
   background-color: var(--my-primary);
 }
@@ -72,6 +76,18 @@ div#offcanvasNavbar{
 
 #jumbo, #about {
   background-color: var(--my-primary);
+}
+
+.hr_large {
+  width: 165px;
+  height: 3px;
+  border-radius: 15px;
+}
+
+.hr_small {
+  width: 140px;
+  height: 3px;
+  border-radius: 15px;
 }
 
 /* #endregion Main */
